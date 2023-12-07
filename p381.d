@@ -6,7 +6,7 @@ import std.algorithm;
 import std.conv;
 
 void main() {
-    string path = "/home/vlas/probem381/data";
+    string path = "/home/vlas/problem381/data";
     auto data = parse_input(path);
     writeln(" ", data.length);
     write(" ");
