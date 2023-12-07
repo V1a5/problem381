@@ -30,7 +30,7 @@ Array!(Tuple!(int, int)) parse_input(string path) {
         if (i + 1 < parts.length) {
             point[1] = parts[i + 1];
         } else {
-            point[1] = 0; // Atasi elemen terakhir yang mungkin tidak ada pasangannya
+            point[1] = 0; 
         }
         data ~= point;
     }
